@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selected_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selected_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mm_title_act_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\mm_title_act_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_content_favorite.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_content_favorite.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\delete_session_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\delete_session_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_four.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\btn_four.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tab_indicator.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setting_child_select_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\setting_child_select_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_user_info.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_user_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\red_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\red_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_detail_screenshot_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_detail_screenshot_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_01.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_01.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_menu_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_menu_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setting_select_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\setting_select_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\clear_pic_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\clear_pic_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\people_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\people_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_tab_list_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_tab_list_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\popwindows_list_item_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\popwindows_list_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gray_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\gray_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cancel_order_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\cancel_order_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\login_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_content_comment.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_content_comment.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\emotion_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\emotion_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_friend_message_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\common_friend_message_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\camera_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\camera_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_location.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\bg_location.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_keyboard.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_keyboard.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_listview_item_prompt_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_listview_item_prompt_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_02.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_02.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\smiley_add_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\smiley_add_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_time_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_time_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mm_title_btn_right.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\mm_title_btn_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\anim_btn_audio_play1.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\anim_btn_audio_play1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\del_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\del_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_order_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_order_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\emoji_icon_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\emoji_icon_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tab_contacts.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_tab_contacts.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\release_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\release_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\anim_btn_audio_play2.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\anim_btn_audio_play2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_04.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_04.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_photo.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_photo.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_add.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_add.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_icon_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\add_icon_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_favorite_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\list_favorite_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\write_weibo_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\write_weibo_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\wheel_val.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search_icon_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\search_icon_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_list_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_list_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progress.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\actionbar_bg_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\actionbar_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\back_layout_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\back_layout_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_11.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_11.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tab_chats.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_tab_chats.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_list_corner_round_top.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\app_list_corner_round_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_detail_minus_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_detail_minus_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\more_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\more_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\keyboard_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\keyboard_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\add_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_add_style.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_add_style.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tree_view_icon_close.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\tree_view_icon_close.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_content_like.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_content_like.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\contact_item_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\contact_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\protocl_checkbox.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\protocl_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sidebar_background.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search_dialog_cancle_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\search_dialog_cancle_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_emotion.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_emotion.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_location.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_location.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tab_order.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_tab_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_detail_add_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_detail_add_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\small_red_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\small_red_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_07.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_07.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\stop_voice_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\stop_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_image.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_image.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\transparent_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\transparent_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_cancle_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\dialog_cancle_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\commodity_listview_item_status_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\commodity_listview_item_status_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ok_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\ok_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\choose_person_selected.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\choose_person_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\commodity_listview_item_price_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\commodity_listview_item_price_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gallery_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\gallery_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_add.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_add.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\delete_emotion_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\delete_emotion_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radiobutton_toupiao_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\radiobutton_toupiao_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progressbar.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_item_delete_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_item_delete_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\help_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\help_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\invite_friends_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\invite_friends_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\login_checkbox.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\login_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\smiley_minus_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\smiley_minus_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_contact_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\add_contact_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_pic_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\add_pic_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\location_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\location_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setting_last_select_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\setting_last_select_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_delwords.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\bg_delwords.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\friends_long_click_bg_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\friends_long_click_bg_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\view_image_comment_icon_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\view_image_comment_icon_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_05.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_05.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_08.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_08.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ok_dialog_ok_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\ok_dialog_ok_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setting_item_sharp_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\setting_item_sharp_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fiends_loop_pop_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\fiends_loop_pop_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\clear_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\clear_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_10.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_10.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_track_btn_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_track_btn_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_ok_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\dialog_ok_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\back_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\back_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\corners_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\corners_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_order_menu_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_order_menu_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radiobutton_boy_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\radiobutton_boy_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_butn_toggle.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_butn_toggle.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\map_favorite_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\map_favorite_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_message_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\common_message_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_import_msg_state_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_import_msg_state_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\file_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\file_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_voice_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\play_voice_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\jian_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\jian_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_chat.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_chat.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\keyboard_u_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\keyboard_u_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_keyboard.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_keyboard.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\profile_cancel_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\profile_cancel_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_list_corner_round_bottom.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\app_list_corner_round_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_listview_item_amount_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_listview_item_amount_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\myprogressdrawable.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\myprogressdrawable.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\voice_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\wheel_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_12.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_12.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tab_setting.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_tab_setting.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_list_corner_round.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\app_list_corner_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_chat_style.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_chat_style.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radiobutton_girl_selector.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\radiobutton_girl_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\friends_zan_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\friends_zan_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\my_album_click_bg_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\my_album_click_bg_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\signup_change_avatar_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\signup_change_avatar_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\send_msg_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\send_msg_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selectorbuttonsavepicture.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selectorbuttonsavepicture.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\pink_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\pink_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_03.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_03.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\commodity_listview_item_name_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\commodity_listview_item_name_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\chat_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_content_share.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_content_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\send_map_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\send_map_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_06.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_06.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_09.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\loading_09.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ok_dialog_corners_bg.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\ok_dialog_corners_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\resend_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\resend_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tree_view_icon_open.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\tree_view_icon_open.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\add_item_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\add_item_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice_message_send_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\voice_message_send_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tab_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_tab_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_content_repost.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_content_repost.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\toggle_keyboard_style.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\toggle_keyboard_style.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\app_list_corner_shape.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\app_list_corner_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\friends_cancle_zan_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\friends_cancle_zan_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_top_menu_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_top_menu_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\order_listview_item_text_color.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\order_listview_item_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\t_btn.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\t_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_at.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable\\selector_at.xml"
+    }
+]

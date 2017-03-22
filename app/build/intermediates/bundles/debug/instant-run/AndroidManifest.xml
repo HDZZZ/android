@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.research"
+    android:versionCode="1"
+    android:versionName="V3.3.8" >
+
+    <!--
+         <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9"
+        .wechatsample.MainActivity />
+    -->
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.research.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.research.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 获取系统联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 摇一摇需要的权限 -->
+    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+
+    <application
+        name="com.research.map.BMapApiApp"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/ochat_app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.research.WelcomeActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.LoginTypeActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SubTab"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:label="@string/ochat_app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ForgetPwdActity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.LoginActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.RegisterActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.UserProtocolActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.CompleteUserInfoActvity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WriteUserInfoActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+ <!-- .MainActivity  android:theme="@style/ActivityTheme_Light" -->
+        <activity
+            android:name="com.research.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ChatsTab"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MyGroupListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ServiceListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactsTab"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.FindTab"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ProfileTab"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SettingTab"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ScanResultActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.LanguageActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.LocationActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactAddrActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactNameActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactPinLiActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactAddTimeActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactProjectActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactSubjectActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.UserInfoActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ChatMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.research.chat"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.RotateImageActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ShowImageActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.CommodityActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ChooseUserActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AboutActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.HelpWebViewActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.FeedBackActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.OrderTrackActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ProductDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.RemarkActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ReportedActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.BlockListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ProfileActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.EditProfileActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AddActivity"
+            android:configChanges="locale|orientation"
+            android:icon="@drawable/logo"
+            android:label="@string/add_friend"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AddPersonActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ChatDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.NotifyActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.NotifyDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MoveGroupActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ManageGroupActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.GuideActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MyAlbumActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/my_album"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WriteBlogActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WatchTouPiaoActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WeiboContentActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WriteMusicActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WriteTouPiaoActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MusicActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.TouPiaoActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SearchActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WeiboListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.TopicActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ContactActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SearchOrderActvity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SubscriptionNumDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.OrderChatMainActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.OderListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SendMovingActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AppNewsActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AppNewsDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.TopListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.WriteWeiboCommentActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.OutLanderActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.GroupCodeActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SecretaryActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.TopicWeiboListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.DataActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.RecommendActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MyFavoriteActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MyZanActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.PrivateSetActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ModifyPwdActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.TreeViewActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.InviteActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ShakeActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SearchResultActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ServerGridViewActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.NewFriendsActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.CardUserDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.RoomDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.FriensLoopActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ShowMultiImageActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.FriendsLoopDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AreaActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.AlbumCommentActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.FavoriteDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MyMovingMessageListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.JoinRoomDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.SetFriendsLoopAuthActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MettingActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ApplyMettingActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.MettingDetailActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ManagerMeetingActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.research.ApplyMetListActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/ochat_app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.research.service.SnsService"
+            android:label="SnsService"
+            android:process=":push" >
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- debug.keysotre -->
+        <!--
+             <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC3CJOGhd18ziwNylWBMuXy3Z7sh88Qg7U" />
+        -->
+
+
+        <!-- ochat.keysotre -->
+        <!--
+             <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDkmwrGh5hdxRJJAT7nQ9CitFy0YsJQ9XA" />
+        -->
+        <!-- <uses-library android:required="false" android:name="com.google.android.maps.v2" /> -->
+    </application>
+
+</manifest>

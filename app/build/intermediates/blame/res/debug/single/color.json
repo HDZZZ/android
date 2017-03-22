@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\mm_btn_text.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\color\\mm_btn_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\mm_style_one_btn_text.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\color\\mm_style_one_btn_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\mm_style_two_btn_text.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\color\\mm_style_two_btn_text.xml"
+    }
+]

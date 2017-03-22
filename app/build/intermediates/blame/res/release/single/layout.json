@@ -1,0 +1,774 @@
+[
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\subscriptionnum_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\subscriptionnum_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\group_code_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\group_code_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\manager_metting_viwe.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\manager_metting_viwe.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\topic_list_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\topic_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\comment_moving_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\comment_moving_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\block_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\block_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\language_choose.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\language_choose.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\tou_piao_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\tou_piao_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_track_delivery_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_track_delivery_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\exitdailog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\exitdailog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\emoji_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emoji_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\album_comment_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\album_comment_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\note_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\note_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\friends_loop.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\friends_loop.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\notify_detail.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\notify_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\notify_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\notify_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_progress_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\custom_progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\help_webview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\help_webview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\reported_type_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\reported_type_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contacts_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contacts_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_tab_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_tab_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_detail_person_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_detail_person_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\product_detail_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\product_detail_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\alert_dialog_menu_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\alert_dialog_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\server_gridview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\server_gridview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\block_listview_footer.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\block_listview_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\profile_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\profile_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\subscriptionnum_detail_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\subscriptionnum_detail_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_talk_right.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_talk_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_gridview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\service_gridview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\reported_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\reported_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\add_pic_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\add_pic_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_detail_commodity_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_detail_commodity_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\top_type.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\top_type.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\hometab_listview_footer.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\hometab_listview_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\overlay.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\overlay.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\client_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\client_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\service_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\topic_list_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\topic_list_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\setting_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\setting_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\user_protocol.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\user_protocol.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\location_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\location_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\secretary_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\secretary_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_track.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_track.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\profile_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\profile_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\bottom_gridview_menu.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\bottom_gridview_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_image.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\view_image.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_menu_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_menu_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\recommend_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\recommend_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\normal_hint_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\normal_hint_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\friends_loop_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\friends_loop_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\myalbum_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\myalbum_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\friends_loop_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\friends_loop_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\b_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\b_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\address_overlay.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\address_overlay.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\private_set.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\private_set.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\function_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\function_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\search_result.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\search_result.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\title_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\title_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_news_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\app_news_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\gridview_menu_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\gridview_menu_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\write_blog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\write_blog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_detail_pager.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_detail_pager.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\topbiao_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\topbiao_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\group.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\group.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\myalbum_list_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\myalbum_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\complete_user_info.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\complete_user_info.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\metting_detail_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\metting_detail_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\special_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\special_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\apply_metting_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\apply_metting_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\topic_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\topic_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_scroll_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_scroll_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\my_album_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\my_album_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_pager_image.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\item_pager_image.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\weibo_content_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\weibo_content_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\block_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\block_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\hint_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\hint_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\emoji_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emoji_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\birthday.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\birthday.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\find_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\find_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_popupwindow.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\list_item_popupwindow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\weibo_box_expra.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\weibo_box_expra.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_expand_listview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_expand_listview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\addxml.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\addxml.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_gridview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_gridview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\moving_message_list_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\moving_message_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_treeview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_treeview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\comment_weibo_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\comment_weibo_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\modify_pwd_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\modify_pwd_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\notify_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\notify_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\capture.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_user_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_user_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\emotion_gridview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emotion_gridview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\picture_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\picture_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contacts.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contacts.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\watch_result_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\watch_result_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\emoji_grid.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emoji_grid.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_news_detail.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\app_news_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\upload_img_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\upload_img_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\radio_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\radio_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\about_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\about_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\write_muisc_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\write_muisc_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\forget_pwd.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\forget_pwd.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_emoji.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_emoji.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\commodity_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\commodity_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\edittext_with_search.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\edittext_with_search.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\group_list_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\group_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\add_block_prompt_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\add_block_prompt_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\add_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\add_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\weibo_list.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\weibo_list.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\alert_dialog_menu_list_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_listview_footer.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_listview_footer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\card_user_detail_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\card_user_detail_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_search_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_search_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\bottomdialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\bottomdialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\card_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\card_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\welcome.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\share_detail_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\share_detail_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\time_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\time_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\new_user.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\new_user.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\commodity_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\commodity_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_detail_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_detail_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\findsubscription_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\findsubscription_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\iamge_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\iamge_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\find_friend_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\find_friend_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\rotate_image.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\rotate_image.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_user_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_user_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_editdata_birthday.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\dialog_editdata_birthday.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\user_data_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\user_data_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\neary_location_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\neary_location_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_detail_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\order_detail_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\favorite_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\favorite_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\search_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\search_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_contact_main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\activity_contact_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\profile_header_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\profile_header_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\metting_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\metting_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab_indicator.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\commentweibo.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\commentweibo.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\web_content.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\web_content.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_voice_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_voice_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_tab_listview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\home_tab_listview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\customprogressdialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_box.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_box.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\moving_list_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\moving_list_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\move_group_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\move_group_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\product_detail_pager.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\product_detail_pager.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\tabactivity.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\tabactivity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_box_expra.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_box_expra.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\invite_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\invite_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\login.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\multiscanimagelayout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\multiscanimagelayout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_item_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_item_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\tree_view_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\tree_view_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\feedback_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\feedback_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\send_moving.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\send_moving.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\ok_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\ok_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\remark_friend.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\remark_friend.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\scan_result.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\scan_result.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\music_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\music_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\set_friends_loop_auth.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\set_friends_loop_auth.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\tree_view_item_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\tree_view_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_news.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\app_news.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\system_dialog.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\system_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\image_display.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\image_display.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\checkbox_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\checkbox_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chats_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chats_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\join_room_detail.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\join_room_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\profile_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\profile_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\weibo_box_expra_two.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\weibo_box_expra_two.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\alert_dialog_menu_list_layout_cancel.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout_cancel.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\shake_activity.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\shake_activity.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_talk_left.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_talk_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_tab.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\chat_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\move_group_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\move_group_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\loop_header.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\loop_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\alert_dialog_menu_list_layout_title.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\alert_dialog_menu_list_layout_title.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\search_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\toupiao_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\toupiao_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\area_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\area_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\country_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\country_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\product_detail.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\product_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_subject.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\contact_subject.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_detail_popupwindow.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\task_detail_popupwindow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\finished_order_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\finished_order_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\layout\\favorite_detail_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\favorite_detail_view.xml"
+    }
+]

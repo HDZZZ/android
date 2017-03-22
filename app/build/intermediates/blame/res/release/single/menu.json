@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\menu\\profile_menu.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ofm_blacklist_icon.png",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\drawable-mdpi\\ofm_blacklist_icon.png"
+    }
+]

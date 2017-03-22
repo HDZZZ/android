@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.2.5">
+
+    <issue
+        id="MockLocation"
+        severity="Fatal"
+        message="Mock locations should only be requested in a test or debug-specific manifest file (typically `src/debug/AndroidManifest.xml`)"
+        category="Correctness"
+        priority="8"
+        summary="Using mock location provider in production"
+        explanation="Using a mock location provider (by requiring the permission `android.permission.ACCESS_MOCK_LOCATION`) should *only* be done in debug builds (or from tests). In Gradle projects, that means you should only request this permission in a test or debug source set specific manifest file.
+
+To fix this, create a new manifest file in the debug folder and move the `&lt;uses-permission>` element there. A typical path to a debug manifest override file in a Gradle project is src/debug/AndroidManifest.xml."
+        errorLine1="    &lt;uses-permission android:name=&quot;android.permission.ACCESS_MOCK_LOCATION&quot; />"
+        errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="E:\AndroidStudioDemo\android\app\src\main\AndroidManifest.xml"
+            line="1057"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="ResourceType"
+        severity="Fatal"
+        message="Expected resource of type styleable"
+        category="Correctness"
+        priority="7"
+        summary="Wrong Resource Type"
+        explanation="Ensures that resource id&apos;s passed to APIs are of the right type; for example, calling `Resources.getColor(R.string.name)` is wrong."
+        errorLine1="  tabTextColor = a.getColor(1, tabTextColor);"
+        errorLine2="                            ~">
+        <location
+            file="E:\AndroidStudioDemo\android\app\src\main\java\com\research\widget\PagerSlidingTabStrip.java"
+            line="141"
+            column="29"/>
+    </issue>
+
+</issues>
