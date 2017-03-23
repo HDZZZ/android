@@ -534,7 +534,7 @@ public class Utility {
         HttpConnectionParams.setSoTimeout(httpParameters, Utility.SET_SOCKET_TIMEOUT);
         DefaultHttpClient client = new DefaultHttpClient(httpParameters);
         WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-       if (!wifiManager.isWifiEnabled()) {
+       /*if (!wifiManager.isWifiEnabled()) {
             // 鑾峰彇褰撳墠姝ｅ湪浣跨敤鐨凙PN鎺ュ叆鐐�?
             Uri uri = Uri.parse("content://telephony/carriers/preferapn");
             Cursor mCursor = context.getContentResolver().query(uri, null, null, null, null);
@@ -547,7 +547,7 @@ public class Utility {
                 }
                 mCursor.close();
             }
-        }
+        }*/
         return client;
     }
 

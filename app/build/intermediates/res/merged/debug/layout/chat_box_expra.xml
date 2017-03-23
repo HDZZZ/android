@@ -61,6 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" >
             <Button
+                android:id="@+id/chat_box_expra_btn_favorite"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_centerHorizontal="true"
@@ -95,7 +96,7 @@
             android:layout_weight="1" >
 
             <Button
-                android:id="@+id/chat_box_expra_btn_favorite"
+                android:id="@+id/chat_box_expra_btn_favorit"
                 android:layout_width="68dp"
                 android:layout_height="68dp"
                 android:layout_centerHorizontal="true"

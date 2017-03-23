@@ -12,12 +12,12 @@
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\album_comment_view.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notify_page.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\notify_page.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\invite_view.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\invite_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notify_page.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\notify_page.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabactivity.xml",
@@ -44,24 +44,24 @@
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\friends_loop.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_layout.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emoji_layout.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_webview.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\help_webview.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emoji_layout.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\emoji_layout.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_treeview.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\pull_to_refresh_treeview.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_tab_listview.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\home_tab_listview.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\neary_location_item.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\neary_location_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_tab_listview.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\home_tab_listview.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commodity_item.xml",
@@ -76,12 +76,12 @@
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\group.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\view_image.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\b_view.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\b_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\view_image.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_pager.xml",
@@ -100,12 +100,12 @@
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\favorite_detail_view.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myalbum_view.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\myalbum_view.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\block_page.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\block_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myalbum_view.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\myalbum_view.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_scroll_view.xml",
@@ -216,12 +216,12 @@
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\watch_result_item.xml"
     },
     {
-        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_item.xml",
-        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\service_item.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radio_item.xml",
         "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\radio_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_item.xml",
+        "source": "E:\\AndroidStudioDemo\\android\\app\\src\\main\\res\\layout\\service_item.xml"
     },
     {
         "merged": "E:\\AndroidStudioDemo\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_gridview.xml",
