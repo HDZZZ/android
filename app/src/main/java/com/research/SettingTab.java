@@ -20,12 +20,11 @@ import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.research.R;
 import com.research.Entity.Login;
 import com.research.Entity.Version;
 import com.research.Entity.VersionInfo;
+import com.research.Utils.ToastUtil;
 import com.research.global.FeatureFunction;
 import com.research.global.GlobalParam;
 import com.research.global.GlobleType;
@@ -246,10 +245,12 @@ public class SettingTab extends BaseActivity implements OnClickListener{
 				showUpgradeDialog();
 				break;
 			case NO_NEW_VERSION:
-				Toast.makeText(getApplicationContext(), BMapApiApp.getInstance().getResources().getString(R.string.no_version), Toast.LENGTH_LONG).show();
+				//Toast.makeText(getApplicationContext(), BMapApiApp.getInstance().getResources().getString(R.string.no_version), Toast.LENGTH_LONG).show();
+				ToastUtil.showShort(getApplication(),BMapApiApp.getInstance().getResources().getString(R.string.no_version));
 				break;
 			case GlobalParam.MSG_NETWORK_ERROR:
-				Toast.makeText(mContext,R.string.network_error,Toast.LENGTH_LONG).show();
+				//Toast.makeText(mContext,R.string.network_error,Toast.LENGTH_LONG).show();
+				ToastUtil.showShort(getApplication(),R.string.network_error);
 				return;
 				
 			case GlobalParam.MSG_TICE_OUT_EXCEPTION:
@@ -257,7 +258,8 @@ public class SettingTab extends BaseActivity implements OnClickListener{
 				if (message==null || message.equals("")) {
 					message=BMapApiApp.getInstance().getResources().getString(R.string.timeout);
 				}
-				Toast.makeText(mContext,message, Toast.LENGTH_LONG).show();
+				//Toast.makeText(mContext,message, Toast.LENGTH_LONG).show();
+				ToastUtil.showLong(getApplication(),message);
 				break;
 			default:
 				break;

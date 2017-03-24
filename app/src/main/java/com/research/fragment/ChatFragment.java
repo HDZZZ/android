@@ -39,6 +39,7 @@ import com.research.global.FeatureFunction;
 import com.research.global.GlobalParam;
 import com.research.global.ResearchCommon;
 import com.research.global.SystemContactGlobal;
+import com.research.map.BMapApiApp;
 import com.research.net.ResearchException;
 
 import java.util.ArrayList;
@@ -435,11 +436,13 @@ public class ChatFragment extends Fragment implements OnItemClickListener {
 		user.nickname = mSessionList.get(position).name;
 		user.headsmall = mSessionList.get(position).heading;
 		user.mIsRoom = mSessionList.get(position).type;
+		BMapApiApp.getInstance().mlogUtils.info("uid="+user.uid+",nickname="+user.nickname+",headsmall="+user.headsmall+",mIsRoom="+user.mIsRoom);
 		Intent intent = new Intent(mParentContext, ChatMainActivity.class);
 		intent.putExtra("data",user);
 		/*if (mSessionList !=null) {
 			intent.putExtra("session", mSessionList.get(position));
 		}*/
+		//TODO
 		startActivity(intent);
 	}
 

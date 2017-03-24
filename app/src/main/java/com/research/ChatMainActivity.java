@@ -96,6 +96,7 @@ import com.research.global.GlobleType;
 import com.research.global.ImageLoader;
 import com.research.global.ResearchCommon;
 import com.research.global.VoiceTask;
+import com.research.map.BMapApiApp;
 import com.research.net.ResearchException;
 import com.research.net.Utility;
 import com.research.receiver.NotifyChatMessage;
@@ -223,6 +224,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 	private int mIsShowSearchDialog,mFromPage; // fromage: 1=来自会话详情的查找聊天记录
 	private String mSearchContent;
 	private int mWindowWidth = 0;
+	private MessageTable mMessageTable;
 
 
 	/**
@@ -242,7 +244,9 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 		mSearchContent = getIntent().getStringExtra("search_content");
 		mFromPage = getIntent().getIntExtra("from_page", 0);
 		mWindowWidth = getWindowManager().getDefaultDisplay().getWidth();
-		
+
+		SQLiteDatabase db = DBHelper.getInstance(mContext).getReadableDatabase();
+		mMessageTable = new MessageTable(db);
 
 		initComponent();
 	}
@@ -482,10 +486,15 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 				Log.i(TAG, "onClick: 走了这里");
 				RelativeLayout parent = (RelativeLayout) v.getParent();
 				ImageView Icon = (ImageView) parent.findViewById(R.id.unread_voice_icon);
+				MessageInfo messageInfo = (MessageInfo) v.getTag();
 				if (Icon != null && Icon.getVisibility() == View.VISIBLE){
 					Log.i(TAG, "onClick: 显示为VISIBLE");
 					Icon.setVisibility(View.GONE);
+					if (messageInfo != null){
+						mMessageTable.updateReadVoice(messageInfo);
+					}
 				}
+
 			}
 		};
 
@@ -992,8 +1001,10 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 			for (int i = 0; i < messageInfos.size(); i++) {
 				if(messageInfos.get(i).readState == 0){
 					messageInfos.get(i).readState = 1;
+					BMapApiApp.getInstance().mlogUtils.info("initMessageInfos()中改掉了");
 					updateMessage(messageInfos.get(i));
 				}else if(messageInfos.get(i).sendState == 2){
+					BMapApiApp.getInstance().mlogUtils.info("initMessageInfos()中改掉了成了0");
 					messageInfos.get(i).sendState = 0;
 					updateMessage(messageInfos.get(i));
 				}
@@ -1087,7 +1098,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 			msg.typechat = mType;
 			msg.time = System.currentTimeMillis();
 			msg.readState = 1;
-
+			BMapApiApp.getInstance().mlogUtils.info("sendText()中改掉了");
 			sendBroad2Save(msg,false);
 		}
 	}
@@ -1113,7 +1124,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 		msg.typechat = mType;
 		msg.time = System.currentTimeMillis();
 		msg.readState = 1;
-
+		BMapApiApp.getInstance().mlogUtils.info("sendMap()中改掉了");
 		sendBroad2Save(msg,false);
 	}
 
@@ -1146,7 +1157,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 		msg.readState = 1;
 		addMessageInfo(msg);
 		sendFilePath(msg, 0);
-
+		BMapApiApp.getInstance().mlogUtils.info("sendFile()中改掉了");
 	}
 
 	private void sendFilePath(MessageInfo messageInfo, int isResend){
@@ -1398,6 +1409,8 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 								FeatureFunction.reNameFile(new File(msg.voiceUrl), voice);
 							}
 							result.mMessageInfo.readState = 1;
+							BMapApiApp.getInstance().mlogUtils.info("sendMessage()中改掉了");
+
 							Message message = new Message();
 							message.what = SEND_SUCCESS;
 							message.arg1 = isResend;
@@ -2329,11 +2342,13 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 			}
 			//TODO
 			if (type == 1 ){
-				if(1 == messageInfo.getReadState() && viewHolder.imgMsgVoice.getVisibility() == View.VISIBLE) {
+				BMapApiApp.getInstance().mlogUtils.info("mMessageTable.queryReadVoice ="+mMessageTable.queryReadVoice(messageInfo.tag));
+				if(viewHolder.imgMsgVoice.getVisibility() == View.VISIBLE && mMessageTable.queryReadVoice(messageInfo.tag)==1) {
 				viewHolder.imgVoiceReadState.setVisibility(View.VISIBLE);
+
 			} else {
 				viewHolder.imgVoiceReadState.setVisibility(View.GONE);
-			}
+				}
 		}
 		}
 
@@ -2516,6 +2531,8 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 				if((msg.typechat == GlobleType.SINGLE_CHAT && msg.fromid.equals(fCustomerVo.uid)) 
 						|| ((msg.typechat == GlobleType.GROUP_CHAT || msg.typechat == GlobleType.MEETING_CHAT)  && msg.toid.equals(fCustomerVo.uid))){
 					msg.readState = 1;
+					BMapApiApp.getInstance().mlogUtils.info("BroadcastReceiver()中改掉了");
+
 					//changeReadState(msg);
 					updateMessage(msg);
 					mContext.sendBroadcast(new Intent(ChatFragment.ACTION_REFRESH_SESSION));
@@ -2711,6 +2728,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 			if(messageInfo.tag.equals(messageInfos.get(i).tag)){
 				MessageInfo tempInfo = messageInfos.get(i);
 				tempInfo.setReadState(messageInfo.readState);
+				BMapApiApp.getInstance().mlogUtils.info("modifyMessageReadState中改掉了");
 				mAdapter.notifyDataSetInvalidated();
 				break;
 			}
@@ -2732,6 +2750,7 @@ public class ChatMainActivity  extends BaseActivity implements OnItemLongClickLi
 				tempInfo.voiceUrl = messageInfo.voiceUrl;
 				tempInfo.readState = messageInfo.readState;
 				tempInfo.time = messageInfo.time;
+				BMapApiApp.getInstance().mlogUtils.info("initMessageInfos()中改掉了");
 				mAdapter.notifyDataSetInvalidated();
 				break;
 			}

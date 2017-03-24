@@ -586,9 +586,11 @@ public class MyAlbumActivity extends BaseActivity implements OnClickListener, Re
 	private void doChoose(final boolean isGallery, final Intent data,String tempFileName,int type) {
 		if(isGallery){
 			originalImage(data,tempFileName,type);
+			//setPhotoImage(data);
 		}else {
 			if(data != null){
 				originalImage(data,tempFileName,type);
+				//setPhotoImage(data);
 			}else{
 				// Here if we give the uri, we need to read it
 				String path = /*Environment.getExternalStorageDirectory() + */FeatureFunction.PUB_TEMP_DIRECTORY+tempFileName+".jpg";
@@ -861,31 +863,30 @@ public class MyAlbumActivity extends BaseActivity implements OnClickListener, Re
 
 
 	private void getImageFromCamera() {
-		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
 		if(FeatureFunction.newFolder(Environment.getExternalStorageDirectory() + FeatureFunction.PUB_TEMP_DIRECTORY)){
+
+			Intent getImageByCamera = new Intent("android.media.action.IMAGE_CAPTURE");
 			File out = new File(Environment.getExternalStorageDirectory() + FeatureFunction.PUB_TEMP_DIRECTORY, TEMP_FILE_NAME);
 			Uri uri = Uri.fromFile(out);
-			intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
-
-			startActivityForResult(intent, REQUEST_GET_IMAGE_BY_CAMERA);
+			getImageByCamera.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+			startActivityForResult(getImageByCamera, REQUEST_GET_IMAGE_BY_CAMERA);
 		}
 
 	}
 
 	private void getImageFromGallery() {
-		Intent intent = new Intent(Intent.ACTION_GET_CONTENT, null);
-		intent.setType("image/*");
-
-		startActivityForResult(intent, REQUEST_GET_URI);
+		Intent intent = new Intent(Intent.ACTION_PICK,
+				android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+		startActivityForResult(intent, GlobalParam.REQUEST_GET_URI);
 	}
 
 	private void doChoose(final boolean isGallery, final Intent data) {
 		if(isGallery){
-			originalImage(data);
+			setPhotoImage(data);
 		}else {
 			if(data != null){
-				originalImage(data);
+				setPhotoImage(data);
 			}else{
 				// Here if we give the uri, we need to read it
 
@@ -902,6 +903,22 @@ public class MyAlbumActivity extends BaseActivity implements OnClickListener, Re
 				//ShowBitmap(false);
 			}
 		}
+	}
+	public void setPhotoImage(Intent data){
+		Uri selectedImage = data.getData();
+		String[] filePathColumns = {MediaStore.Images.Media.DATA};
+		Cursor cursor = getContentResolver().query(selectedImage, filePathColumns, null, null, null);
+		cursor.moveToFirst();
+		int columnIndex = cursor.getColumnIndex(filePathColumns[0]);
+		String path = cursor.getString(columnIndex);
+
+		if(FeatureFunction.isPic(path)){
+			Intent intent = new Intent(mContext, RotateImageActivity.class);
+			intent.putExtra("path", path);
+			startActivityForResult(intent, REQUEST_GET_BITMAP);
+
+		}
+		cursor.close();
 	}
 
 	private void originalImage(Intent data) {

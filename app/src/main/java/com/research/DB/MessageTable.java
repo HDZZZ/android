@@ -56,6 +56,7 @@ public static final String TABLE_NAME = "MessageTable";//数据表的名称
 	public static final String COLUMN_LNG = "lng";
 	public static final String COLUMN_ADDRESS = "address";
 	public static final String COLUMN_SYSTEM_MESSAGE ="system_message";
+	public static final String COLUMN_READ_VOICE = "readvoice";
 	
 	public static final String COLUMN_INTEGER_TYPE = "integer";
 	public static final String COLUMN_TEXT_TYPE = "text";
@@ -103,6 +104,7 @@ public static final String TABLE_NAME = "MessageTable";//数据表的名称
 			columnNameAndType.put(COLUMN_SYSTEM_MESSAGE, COLUMN_INTEGER_TYPE);
 			columnNameAndType.put(COLUMN_IMAGE_STRING, COLUMN_TEXT_TYPE);
 			columnNameAndType.put(COLUMN_VOICE_STRING, COLUMN_TEXT_TYPE);
+			columnNameAndType.put(COLUMN_READ_VOICE,COLUMN_INTEGER_TYPE);
 		
 			
 			
@@ -156,7 +158,7 @@ public static final String TABLE_NAME = "MessageTable";//数据表的名称
 			allPromotionInfoValues.put(COLUMN_SYSTEM_MESSAGE, message.systeMessage);
 			allPromotionInfoValues.put(COLUMN_IMAGE_STRING, message.imageString);
 			allPromotionInfoValues.put(COLUMN_VOICE_STRING, message.voiceString);
-			
+			allPromotionInfoValues.put(COLUMN_READ_VOICE,1);
 			try {
 				mDBStore.insertOrThrow(TABLE_NAME, null, allPromotionInfoValues);
 			} catch (SQLiteConstraintException e) {
@@ -200,7 +202,7 @@ public static final String TABLE_NAME = "MessageTable";//数据表的名称
 		allPromotionInfoValues.put(COLUMN_SYSTEM_MESSAGE, message.systeMessage);
 		allPromotionInfoValues.put(COLUMN_IMAGE_STRING, message.imageString);
 		allPromotionInfoValues.put(COLUMN_VOICE_STRING, message.voiceString);
-		
+		allPromotionInfoValues.put(COLUMN_READ_VOICE,1);
 		try {
 			mDBStore.insertOrThrow(TABLE_NAME, null, allPromotionInfoValues);
 		} catch (SQLiteConstraintException e) {
@@ -793,6 +795,46 @@ public static final String TABLE_NAME = "MessageTable";//数据表的名称
 		}
 		return 0;
 	}
-	
+
+	public boolean updateReadVoice(MessageInfo message){
+		ContentValues allPromotionInfoValues = new ContentValues();
+		allPromotionInfoValues.put(COLUMN_READ_VOICE, 0);
+
+		try {
+			mDBStore.update(TABLE_NAME, allPromotionInfoValues, COLUMN_TAG + "='" + message.tag + "' AND " + COLUMN_LOGIN_ID + "='" + ResearchCommon.getUserId(BMapApiApp.getInstance()) + "'", null);
+			return true;
+		} catch (SQLiteConstraintException e) {
+			e.printStackTrace();
+		}
+
+		return false;
+	}
+
+	public int queryReadVoice(String tag){
+		Cursor cursor = null;
+		try{
+			String querySql = "";
+			querySql = "SELECT * FROM " + TABLE_NAME + " WHERE " + COLUMN_TAG + "='" + tag + "'";
+			cursor = mDBStore.rawQuery(querySql, null);
+			if (cursor != null) {
+
+				if (!cursor.moveToFirst()) {
+					return 0;
+				}
+				int indexFromId = cursor.getColumnIndex(COLUMN_READ_VOICE);
+				int anInt = cursor.getInt(indexFromId);
+				BMapApiApp.getInstance().mlogUtils.info("tag="+tag+",anInt="+anInt);
+				return anInt;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if (cursor != null) {
+				cursor.close();
+			}
+		}
+		return 0;
+
+	}
 	
 }

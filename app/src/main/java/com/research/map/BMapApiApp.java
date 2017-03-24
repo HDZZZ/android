@@ -10,6 +10,7 @@ import com.baidu.mapapi.BMapManager;
 import com.baidu.mapapi.MKGeneralListener;
 import com.baidu.mapapi.map.MKEvent;
 import com.research.Entity.CountryList;
+import com.research.Utils.LogUtil;
 import com.research.global.ResearchCommon;
 import com.research.net.ResearchException;
 
@@ -29,8 +30,9 @@ public class BMapApiApp extends Application {
 
  
 
-  public static final String strKey = "ylg8yBCSUPFnuu82sDnIbZ5H"; 
-    
+  public static final String strKey = "ylg8yBCSUPFnuu82sDnIbZ5H";
+    public LogUtil mlogUtils;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -49,8 +51,9 @@ public class BMapApiApp extends Application {
              	};
              }.start();
         }
-       
-        
+        mlogUtils = LogUtil.getInstance();
+
+
     }
     
     public void initEngineManager(Context context) {

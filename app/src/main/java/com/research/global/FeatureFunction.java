@@ -726,6 +726,9 @@ public class FeatureFunction {
 		Pattern p = Pattern.compile(strPattern, Pattern.CASE_INSENSITIVE);
 		Matcher m = p.matcher(filename);Log.d("m.matches()", String.valueOf(m.matches()));
 		return m.matches();*/
+		if (TextUtils.isEmpty(filename)){
+			return false;
+		}
 		if (filename.contains(".jpg") || filename.contains(".png") || filename.contains(".jpeg")){
 			return true;
 		} else {

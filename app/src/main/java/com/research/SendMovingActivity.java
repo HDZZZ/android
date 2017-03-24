@@ -1,15 +1,8 @@
 package com.research;
 
-import java.io.File;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -34,7 +27,6 @@ import android.widget.Toast;
 import com.research.Entity.Login;
 import com.research.Entity.MapInfo;
 import com.research.Entity.MorePicture;
-import com.research.Entity.OutBitmapEntity;
 import com.research.Entity.ResearchJiaState;
 import com.research.Entity.UploadImg;
 import com.research.adapter.UploadPicAdapter;
@@ -45,6 +37,12 @@ import com.research.global.GlobalParam;
 import com.research.global.ResearchCommon;
 import com.research.net.ResearchException;
 import com.research.widget.MyGridView;
+
+import java.io.File;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * 发布一条动态信息
@@ -431,32 +429,30 @@ public class SendMovingActivity extends BaseActivity implements OnClickListener,
 
 
 	private void getImageFromCamera() {
-		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
 		String tempUrl = FeatureFunction.getPhotoFileName(1);
 		if(FeatureFunction.newFolder(Environment.getExternalStorageDirectory() + FeatureFunction.PUB_TEMP_DIRECTORY)){
+			Intent getImageByCamera = new Intent("android.media.action.IMAGE_CAPTURE");
 			File out = new File(Environment.getExternalStorageDirectory() + FeatureFunction.PUB_TEMP_DIRECTORY, tempUrl);
 			Uri uri = Uri.fromFile(out);
-			intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
-
-			startActivityForResult(intent, REQUEST_GET_IMAGE_BY_CAMERA);
+			getImageByCamera.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+			startActivityForResult(getImageByCamera, REQUEST_GET_IMAGE_BY_CAMERA);
 		}
 	}
 
 	private void getImageFromGallery() {
-		Intent intent = new Intent(Intent.ACTION_GET_CONTENT, null);
-		intent.setType("image/*");
-
+		Intent intent = new Intent(Intent.ACTION_PICK,
+				android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 		startActivityForResult(intent, REQUEST_GET_URI);
 	}
 
 
 	private void doChoose(final boolean isGallery, final Intent data) {
 		if(isGallery){
-			originalImage(data);
+			setPhotoImage(data);
 		}else {
 			if(data != null){
-				originalImage(data);
+				setPhotoImage(data);
 			}else{
 				// Here if we give the uri, we need to read it
 				String tempUrl = ResearchCommon.getCamerUrl(mContext);
@@ -591,6 +587,23 @@ public class SendMovingActivity extends BaseActivity implements OnClickListener,
 				mAdapter.notifyDataSetChanged();
 			}
 		}
+	}
+
+	public void setPhotoImage(Intent data){
+		Uri selectedImage = data.getData();
+		String[] filePathColumns = {MediaStore.Images.Media.DATA};
+		Cursor cursor = getContentResolver().query(selectedImage, filePathColumns, null, null, null);
+		cursor.moveToFirst();
+		int columnIndex = cursor.getColumnIndex(filePathColumns[0]);
+		String path = cursor.getString(columnIndex);
+
+		if(FeatureFunction.isPic(path)){
+			Intent intent = new Intent(mContext, RotateImageActivity.class);
+			intent.putExtra("path", path);
+			startActivityForResult(intent, REQUEST_GET_BITMAP);
+
+		}
+		cursor.close();
 	}
 
 	/*@Override
